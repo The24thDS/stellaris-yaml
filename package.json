@@ -1,0 +1,28 @@
+{
+  "name": "stellaris-yaml-alpha",
+  "displayName": "Stellaris YAML Alpha",
+  "description": "Syntax highlighting for Stellaris localisation files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "language": "yml",
+        "scopeName": "source.yml",
+        "path": "./syntaxes/yml.tmLanguage.json"
+      },
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "todo-comment.injection",
+        "injectTo": [
+          "source.js"
+        ]
+      }
+    ]
+  }
+}
