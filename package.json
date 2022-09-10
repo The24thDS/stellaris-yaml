@@ -12,15 +12,10 @@
   "contributes": {
     "grammars": [
       {
-        "language": "yml",
-        "scopeName": "source.yml",
-        "path": "./syntaxes/yml.tmLanguage.json"
-      },
-      {
-        "path": "./syntaxes/injection.json",
-        "scopeName": "todo-comment.injection",
+        "path": "./syntaxes/stellaris_yaml_injection.json",
+        "scopeName": "stellaris.yaml.injection",
         "injectTo": [
-          "source.js"
+          "source.yaml"
         ]
       }
     ]

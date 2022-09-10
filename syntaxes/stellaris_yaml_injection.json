@@ -1,0 +1,106 @@
+{
+  "scopeName": "stellaris.yaml.injection",
+  "injectionSelector": "L:string.quoted.double.yaml",
+  "patterns": [
+    { "include": "#stellaris-color-codes" },
+    { "include": "#stellaris-references" }
+  ],
+  "repository": {
+    "stellaris-color-codes": {
+      "patterns": [
+        { "include": "#color-code-w" },
+        { "include": "#color-code-t" },
+        { "include": "#color-code-l" },
+        { "include": "#color-code-p" },
+        { "include": "#color-code-r" },
+        { "include": "#color-code-s" },
+        { "include": "#color-code-h" },
+        { "include": "#color-code-y" },
+        { "include": "#color-code-g" },
+        { "include": "#color-code-e" },
+        { "include": "#color-code-b" },
+        { "include": "#color-code-m" }
+      ]
+    },
+    "stellaris-references": {
+      "patterns": [
+        { "include": "#bracket-command" },
+        { "include": "#loc-key" },
+        { "include": "#icon-code" }
+      ]
+    },
+    "bracket-command": {
+      "begin": "\\[",
+      "end": "\\]",
+      "name": "keyword.bracket-command.stellaris.yml"
+    },
+    "loc-key": {
+      "match": "\\$\\S+\\$",
+      "name": "keyword.loc-key.stellaris.yml"
+    },
+    "icon-code": {
+      "match": "\\£\\S+\\£",
+      "name": "keyword.icon-code.stellaris.yml"
+    },
+    "color-code-w": {
+      "begin": "§W",
+      "end": "§!",
+      "name": "keyword.color-code.w.stellaris.yml"
+    },
+    "color-code-t": {
+      "begin": "§T",
+      "end": "§!",
+      "name": "keyword.color-code.t.stellaris.yml"
+    },
+    "color-code-l": {
+      "begin": "§L",
+      "end": "§!",
+      "name": "keyword.color-code.l.stellaris.yml"
+    },
+    "color-code-p": {
+      "begin": "§P",
+      "end": "§!",
+      "name": "keyword.color-code.p.stellaris.yml"
+    },
+    "color-code-r": {
+      "begin": "§R",
+      "end": "§!",
+      "name": "keyword.color-code.r.stellaris.yml"
+    },
+    "color-code-s": {
+      "begin": "§S",
+      "end": "§!",
+      "name": "keyword.color-code.s.stellaris.yml"
+    },
+    "color-code-h": {
+      "begin": "§H",
+      "end": "§!",
+      "name": "keyword.color-code.h.stellaris.yml"
+    },
+    "color-code-y": {
+      "begin": "§Y",
+      "end": "§!",
+      "name": "keyword.color-code.y.stellaris.yml"
+    },
+    "color-code-g": {
+      "begin": "§G",
+      "end": "§!",
+      "name": "keyword.color-code.g.stellaris.yml"
+    },
+    "color-code-e": {
+      "begin": "§E",
+      "end": "§!",
+      "name": "keyword.color-code.e.stellaris.yml"
+    },
+    "color-code-b": {
+      "begin": "§B",
+      "end": "§!",
+      "name": "keyword.color-code.b.stellaris.yml"
+    },
+    "color-code-m": {
+      "begin": "§M",
+      "end": "§!",
+      "name": "keyword.color-code.m.stellaris.yml"
+    }
+  }
+}
