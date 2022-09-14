@@ -1,8 +1,8 @@
 {
-  "name": "the24thds.stellaris-yaml-syntax",
+  "name": "stellaris-yaml-syntax",
   "displayName": "24's Stellaris YAML Syntax",
   "description": "Syntax highlighting and color themes for Stellaris localisation files.",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha",
   "engines": {
     "vscode": "^1.71.0"
   },

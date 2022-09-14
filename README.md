@@ -1,65 +1,140 @@
-# stellaris-yaml-alpha README
-
-This is the README for your extension "stellaris-yaml-alpha". After writing up a brief description, we recommend including the following sections.
+Syntax highlighting and color themes for Stellaris localisation files.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- adds syntax for Stellaris localisation files to parse color codes, loc key references, bracket commands and icon codes;
+- adds three color themes to work with the new syntax based on `Dark+`, `Stellaris Theme` and `Night Owl`.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+If you want to customize the colors for the new keywords you can add this to your `settings.json` and change it to your liking:
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+```json
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "string.quoted.double.yaml",
+        "settings": {
+          "foreground": "#d9d9d9",
+        }
+      },
+      {
+        "scope": [
+          "keyword.bracket-command.stellaris.yml",
+          "keyword.loc-key.stellaris.yml"
+        ],
+        "settings": {
+          "fontStyle": "underline",
+        }
+      },
+      {
+        "scope": "keyword.icon-code.stellaris.yml",
+        "settings": {
+          "fontStyle": "underline italic",
+          "foreground": "#c0b235"
+        }
+      },
+      {
+        "scope": "keyword.color-code.w.stellaris.yml",
+        "settings": {
+          "foreground": "#dcdcdc",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.t.stellaris.yml",
+        "settings": {
+          "foreground": "#d9d9d9",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.l.stellaris.yml",
+        "settings": {
+          "foreground": "#9e8f75",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.p.stellaris.yml",
+        "settings": {
+          "foreground": "#bf5e5e",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.r.stellaris.yml",
+        "settings": {
+          "foreground": "#d2483b",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.s.stellaris.yml",
+        "settings": {
+          "foreground": "#b07921",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.h.stellaris.yml",
+        "settings": {
+          "foreground": "#d69123",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.y.stellaris.yml",
+        "settings": {
+          "foreground": "#d2d62c",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.g.stellaris.yml",
+        "settings": {
+          "foreground": "#23bf20",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.e.stellaris.yml",
+        "settings": {
+          "foreground": "#73d9b0",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.b.stellaris.yml",
+        "settings": {
+          "foreground": "#2b8ed9",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.color-code.m.stellaris.yml",
+        "settings": {
+          "foreground": "#8b2dcb",
+          "fontStyle": "bold"
+        }
+      },
+    ],
+  },
+```
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- color codes that don't have a matching close tag will affect the rest of the words.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- yaml syntax
+- dark+, stellaris theme and night owl themes
 
 ---
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
