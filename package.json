@@ -1,13 +1,14 @@
 {
-  "name": "stellaris-yaml-alpha",
-  "displayName": "Stellaris YAML Alpha",
-  "description": "Syntax highlighting for Stellaris localisation files",
+  "name": "the24thds.stellaris-yaml-syntax",
+  "displayName": "24's Stellaris YAML Syntax",
+  "description": "Syntax highlighting and color themes for Stellaris localisation files.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.71.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Themes"
   ],
   "contributes": {
     "grammars": [
@@ -17,6 +18,26 @@
         "injectTo": [
           "source.yaml"
         ]
+      }
+    ],
+    "themes": [
+      {
+        "id": "the24thds.stellaris_locs.dark",
+        "label": "Dark+ (Stellaris Locs)",
+        "path": "themes/dark.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "id": "the24thds.stellaris_locs.stellaris_theme",
+        "label": "Stellaris Theme (Stellaris Locs)",
+        "path": "themes/stellaris_theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "id": "the24thds.stellaris_locs.night_owl",
+        "label": "Night Owl (Stellaris Locs)",
+        "path": "themes/night_owl.json",
+        "uiTheme": "vs-dark"
       }
     ]
   }

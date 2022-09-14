@@ -1,0 +1,254 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": "variable.language.multi_scopes.paradox",
+      "settings": {
+        "foreground": "#DA70D6"
+      }
+    },
+    {
+      "scope": "constant.prefdef.paradox",
+      "settings": {
+        "foreground": "#BBEEFF"
+      }
+    },
+    {
+      "scope": "variable.language.condition_scopes.paradox",
+      "settings": {
+        "foreground": "#9CCB19"
+      }
+    },
+    {
+      "scope": "variable.language.command_scopes.paradox",
+      "settings": {
+        "foreground": "#8A2BE2"
+      }
+    },
+    {
+      "scope": "variable.language.other.paradox",
+      "settings": {
+        "foreground": "#00BFFF"
+      }
+    },
+    {
+      "scope": "variable.language.conditions.paradox",
+      "settings": {
+        "foreground": "#9CCB19"
+      }
+    },
+    {
+      "scope": "variable.language.effects.paradox",
+      "settings": {
+        "foreground": "#FF8300"
+      }
+    },
+    {
+      "scope": "constant.numeric.paradox",
+      "settings": {
+        "foreground": "#1F8206"
+      }
+    },
+    {
+      "scope": "variable.boolean.paradox",
+      "settings": {
+        "foreground": "#EE4000"
+      }
+    },
+    {
+      "scope": ["variable.lhs.paradox", "rest.normal.paradox"],
+      "settings": {
+        "foreground": "#AAFFAA"
+      }
+    },
+    {
+      "scope": "variable.lhs.bracket.paradox",
+      "settings": {
+        "foreground": "#0060EE"
+      }
+    },
+    {
+      "scope": ["constant.rhs.paradox", "constant.language.paradox"],
+      "settings": {
+        "foreground": "#00B200"
+      }
+    },
+    {
+      "scope": "variable.language.definition_tokens.paradox",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "variable.language.modifiers.paradox",
+      "settings": {
+        "foreground": "#008000"
+      }
+    },
+    {
+      "scope": "source.mod",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "string.quoted.double.paradox",
+      "settings": {
+        "foreground": "#D51232"
+      }
+    },
+    {
+      "scope": "comment.line.number-sign.paradox",
+      "settings": {
+        "foreground": "#A5ABAF"
+      }
+    },
+    {
+      "scope": "string.quoted.double.yaml",
+      "settings": {
+        "foreground": "#D9D9D9"
+      }
+    },
+    {
+      "scope": [
+        "keyword.bracket-command.stellaris.yml",
+        "keyword.loc-key.stellaris.yml"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "keyword.icon-code.stellaris.yml",
+      "settings": {
+        "foreground": "#C0B235",
+        "fontStyle": "underline italic"
+      }
+    },
+    {
+      "scope": "keyword.color-code.w.stellaris.yml",
+      "settings": {
+        "foreground": "#DCDCDC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.t.stellaris.yml",
+      "settings": {
+        "foreground": "#D9D9D9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.l.stellaris.yml",
+      "settings": {
+        "foreground": "#9E8F75",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.p.stellaris.yml",
+      "settings": {
+        "foreground": "#BF5E5E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.r.stellaris.yml",
+      "settings": {
+        "foreground": "#D2483B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.s.stellaris.yml",
+      "settings": {
+        "foreground": "#B07921",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.h.stellaris.yml",
+      "settings": {
+        "foreground": "#D69123",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.y.stellaris.yml",
+      "settings": {
+        "foreground": "#D2D62C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.g.stellaris.yml",
+      "settings": {
+        "foreground": "#23BF20",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.e.stellaris.yml",
+      "settings": {
+        "foreground": "#73D9B0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.b.stellaris.yml",
+      "settings": {
+        "foreground": "#2B8ED9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.color-code.m.stellaris.yml",
+      "settings": {
+        "foreground": "#8B2DCB",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "token.info-token",
+        "keyword.bracket-command.stellaris.yml",
+        "keyword.loc-key.stellaris.yml"
+      ],
+      "settings": {
+        "foreground": "#6796E6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#CD9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#F44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#B267E6"
+      }
+    },
+    {
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#c59224"
+      }
+    },
+    {
+      "scope": "comment.line.number-sign.yaml",
+      "settings": {
+        "foreground": "#659663"
+      }
+    }
+  ]
+}
