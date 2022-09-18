@@ -2,13 +2,21 @@
   "name": "stellaris-yaml-syntax",
   "displayName": "24's Stellaris YAML Syntax",
   "description": "Syntax highlighting and color themes for Stellaris localisation files.",
-  "version": "1.0.0-alpha",
+  "icon": "images/extensionlogo.jpg",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.71.0"
   },
   "categories": [
     "Programming Languages",
     "Themes"
+  ],
+  "keywords": [
+    "stellaris",
+    "yaml",
+    "yml",
+    "modding",
+    "paradox"
   ],
   "contributes": {
     "grammars": [
@@ -40,5 +48,13 @@
         "uiTheme": "vs-dark"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The24thDS/stellaris-yaml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The24thDS/stellaris-yaml/issues"
+  },
+  "homepage": "https://github.com/The24thDS/stellaris-yaml/blob/main/README.md"
 }

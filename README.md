@@ -5,11 +5,22 @@ Syntax highlighting and color themes for Stellaris localisation files. Has three
 - adds syntax for Stellaris localisation files to parse color codes, loc key references, bracket commands and icon codes;
 - adds three color themes to work with the new syntax based on `Dark+`, `Stellaris Theme` and `Night Owl`.
 
-\!\[Night Owl theme with Stellaris Locs\]\(images/nightowl.jpg\)
+### Night Owl (Stellaris Locs)
 
-\!\[Dark+ theme with Stellaris Locs\]\(images/darkplus.jpg\)
+![Night Owl theme with Stellaris Locs](images/nightowl.jpg)
 
-\!\[Stellaris Theme with Stellaris Locs\]\(images/stellaristheme.jpg\)
+### Dark+ (Stellaris Locs)
+
+![Dark+ theme with Stellaris Locs](images/darkplus.jpg)
+
+### Stellaris Theme (Stellaris Locs)
+
+![Stellaris Theme with Stellaris Locs](images/stellaristheme.jpg)
+
+## Usage
+
+1. Install the extension.
+2. Pick one of the three provided themes to make the syntax highlighting show.
 
 ## Known Issues
 
