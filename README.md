@@ -1,16 +1,30 @@
-Syntax highlighting and color themes for Stellaris localisation files.
+Syntax highlighting and color themes for Stellaris localisation files. Has three themes derived from the most used themes in the stellaris modding community.
 
 ## Features
 
 - adds syntax for Stellaris localisation files to parse color codes, loc key references, bracket commands and icon codes;
 - adds three color themes to work with the new syntax based on `Dark+`, `Stellaris Theme` and `Night Owl`.
 
+\!\[Night Owl theme with Stellaris Locs\]\(images/nightowl.jpg\)
+
+\!\[Dark+ theme with Stellaris Locs\]\(images/darkplus.jpg\)
+
+\!\[Stellaris Theme with Stellaris Locs\]\(images/stellaristheme.jpg\)
+
+## Known Issues
+
+- color codes that don't have a matching close tag will affect the rest of the words;
+- doesn't work on locs with scalars (eg.: `my_loc_key:1 "loc text"`).
+
 ## Extension Settings
 
-If you want to customize the colors for the new keywords you can add this to your `settings.json` and change it to your liking:
+If you want to customize the colors for the new keywords you can add this to your `settings.json` and change it to your liking
+
+<details>
+  <summary>Custom token colors</summary>
 
 ```json
-"editor.tokenColorCustomizations": {
+  "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": "string.quoted.double.yaml",
@@ -122,9 +136,7 @@ If you want to customize the colors for the new keywords you can add this to you
   },
 ```
 
-## Known Issues
-
-- color codes that don't have a matching close tag will affect the rest of the words.
+</details>
 
 ## Release Notes
 
