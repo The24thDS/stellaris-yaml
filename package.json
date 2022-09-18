@@ -3,6 +3,7 @@
   "displayName": "24's Stellaris YAML Syntax",
   "description": "Syntax highlighting and color themes for Stellaris localisation files.",
   "icon": "images/extensionlogo.jpg",
+  "publisher": "The24thDS",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.71.0"
