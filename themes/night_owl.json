@@ -1605,7 +1605,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag.ymal",
+			"scope": "entity.name.tag.yaml",
 			"settings": {
 				"foreground": "#7FDBCA"
 			}
