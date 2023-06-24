@@ -7,15 +7,15 @@ Syntax highlighting and color themes for Stellaris localisation files. Has three
 
 ### Night Owl (Stellaris Locs)
 
-![Night Owl theme with Stellaris Locs](images/nightowl.jpg)
+![Night Owl theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/nightowl.jpg)
 
 ### Dark+ (Stellaris Locs)
 
-![Dark+ theme with Stellaris Locs](images/darkplus.jpg)
+![Dark+ theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/darkplus.jpg)
 
 ### Stellaris Theme (Stellaris Locs)
 
-![Stellaris Theme with Stellaris Locs](images/stellaristheme.jpg)
+![Stellaris Theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/stellaristheme.jpg)
 
 ## Usage
 

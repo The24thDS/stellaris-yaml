@@ -1709,10 +1709,10 @@
 		{
 			"scope": [
 				"keyword.bracket-command.stellaris.yml",
-				"keyword.loc-key.stellaris.yml"
+				"loc-key.stellaris.yml"
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline bold"
 			}
 		},
 		{

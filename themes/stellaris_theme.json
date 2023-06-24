@@ -113,10 +113,10 @@
     {
       "scope": [
         "keyword.bracket-command.stellaris.yml",
-        "keyword.loc-key.stellaris.yml"
+        "loc-key.stellaris.yml"
       ],
       "settings": {
-        "fontStyle": "underline"
+        "fontStyle": "underline bold"
       }
     },
     {
@@ -213,8 +213,6 @@
     {
       "scope": [
         "token.info-token",
-        "keyword.bracket-command.stellaris.yml",
-        "keyword.loc-key.stellaris.yml"
       ],
       "settings": {
         "foreground": "#6796E6"
