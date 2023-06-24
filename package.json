@@ -29,8 +29,8 @@
         ]
       },
       {
-        "path": "./syntaxes/stellaris_yaml_injection_test.json",
-        "scopeName": "stellaris.yaml.injection.test",
+        "path": "./syntaxes/stellaris_yaml_injection_loc_with_scalar.json",
+        "scopeName": "stellaris.yaml.injection.loc_with_scalar",
         "injectTo": [
           "source.yaml"
         ]

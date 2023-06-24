@@ -31,7 +31,7 @@
     },
     "bracket-command": {
       "match": "\\[[^\\s\\[\\]\\n]+\\]",
-      "name": "keyword.bracket-command.stellaris.yml"
+      "name": "bracket-command.stellaris.yml"
     },
     "loc-key": {
       "match": "\\$[^\\s\\$\\n]+\\$",

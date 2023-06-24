@@ -450,7 +450,6 @@
 		},
 		{
 			"scope": [
-				"keyword.control",
 				"source.cpp keyword.operator.new",
 				"keyword.operator.delete",
 				"keyword.other.using",
@@ -570,7 +569,7 @@
 		},
 		{
 			"scope": [
-				"keyword.bracket-command.stellaris.yml",
+				"bracket-command.stellaris.yml",
 				"loc-key.stellaris.yml"
 			],
 			"settings": {

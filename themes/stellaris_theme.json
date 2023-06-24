@@ -112,7 +112,7 @@
     },
     {
       "scope": [
-        "keyword.bracket-command.stellaris.yml",
+        "bracket-command.stellaris.yml",
         "loc-key.stellaris.yml"
       ],
       "settings": {
@@ -237,7 +237,7 @@
       }
     },
     {
-      "scope": "entity.name.tag.yaml",
+      "scope": "entity.name.tag",
       "settings": {
         "foreground": "#c59224"
       }
