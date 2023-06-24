@@ -126,7 +126,7 @@
       "name": "keyword.color-code._.stellaris.yml"
     },
     "color-code-m": {
-      "begin": "§m(?=[^\\n]*§!)",
+      "begin": "§M(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.m.stellaris.yml"
     },
