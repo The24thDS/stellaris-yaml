@@ -42,32 +42,32 @@
       "name": "keyword.icon-code.stellaris.yml"
     },
     "color-code-w": {
-      "begin": "§W(?=[^\\n]*§!)",
+      "begin": "§(w|W)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.w.stellaris.yml"
     },
     "color-code-t": {
-      "begin": "§T(?=[^\\n]*§!)",
+      "begin": "§(t|T)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.t.stellaris.yml"
     },
     "color-code-l": {
-      "begin": "§L(?=[^\\n]*§!)",
+      "begin": "§(l|L)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.l.stellaris.yml"
     },
     "color-code-p": {
-      "begin": "§P",
+      "begin": "§(p|P)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.p.stellaris.yml"
     },
     "color-code-r": {
-      "begin": "§R(?=[^\\n]*§!)",
+      "begin": "§(r|R)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.r.stellaris.yml"
     },
     "color-code-s": {
-      "begin": "§S(?=[^\\n]*§!)",
+      "begin": "§(s|S)(?=[^\\n]*§!)",
       "end": "§!",
       "name": "keyword.color-code.s.stellaris.yml"
     },
