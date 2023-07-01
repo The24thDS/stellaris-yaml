@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2023-07-(day tbd))
+
+### Fixed issues
+
+- color codes without a matching close tag will no longer affect new lines of the document (add commit/PR here)
+- locs now work with scalars (add commit/PR here)
+
+### Color code updates
+
+- references are now same scoped color as neighboring text (add commit/PR here)
+- added new color codes from latest Stellaris updates (add commit/PR here)
+
 ## 1.0.0 (2022-09-18)
 
 ### Features
