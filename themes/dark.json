@@ -286,9 +286,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.template.expression"
-			],
+			"scope": "meta.template.expression",
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
@@ -482,9 +480,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.object-literal.key"
-			],
+			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "#9CDCFE"
 			}

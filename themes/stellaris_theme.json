@@ -57,7 +57,10 @@
       }
     },
     {
-      "scope": ["variable.lhs.paradox", "rest.normal.paradox"],
+      "scope": [
+        "variable.lhs.paradox",
+        "rest.normal.paradox"
+      ],
       "settings": {
         "foreground": "#AAFFAA"
       }
@@ -69,7 +72,10 @@
       }
     },
     {
-      "scope": ["constant.rhs.paradox", "constant.language.paradox"],
+      "scope": [
+        "constant.rhs.paradox",
+        "constant.language.paradox"
+      ],
       "settings": {
         "foreground": "#00B200"
       }
@@ -274,9 +280,7 @@
       }
     },
     {
-      "scope": [
-        "token.info-token",
-      ],
+      "scope": "token.info-token",
       "settings": {
         "foreground": "#6796E6"
       }
@@ -300,7 +304,10 @@
       }
     },
     {
-      "scope": "entity.name.tag",
+      "scope": [
+        "entity.name.tag.yaml",
+        "entity.name.tag.stellaris.yaml"
+      ],
       "settings": {
         "foreground": "#c59224"
       }

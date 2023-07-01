@@ -444,8 +444,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#7FDBCA",
-				"fontStyle": ""
+				"foreground": "#7FDBCA"
 			}
 		},
 		{
@@ -645,26 +644,20 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object.property"
-			],
+			"scope": "variable.other.object.property",
 			"settings": {
 				"foreground": "#FAF39F",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object.js"
-			],
+			"scope": "variable.other.object.js",
 			"settings": {
 				"fontStyle": ""
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function"
-			],
+			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#82AAFF",
 				"fontStyle": "italic"
@@ -1062,49 +1055,37 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.namespace-block.cpp"
-			],
+			"scope": "meta.namespace-block.cpp",
 			"settings": {
 				"foreground": "#E0DEC6"
 			}
 		},
 		{
-			"scope": [
-				"storage.type.language.primitive.cpp"
-			],
+			"scope": "storage.type.language.primitive.cpp",
 			"settings": {
 				"foreground": "#FF5874"
 			}
 		},
 		{
-			"scope": [
-				"meta.preprocessor.macro.cpp"
-			],
+			"scope": "meta.preprocessor.macro.cpp",
 			"settings": {
 				"foreground": "#D6DEEB"
 			}
 		},
 		{
-			"scope": [
-				"variable.parameter"
-			],
+			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FFCB8B"
 			}
 		},
 		{
-			"scope": [
-				"variable.other.readwrite.powershell"
-			],
+			"scope": "variable.other.readwrite.powershell",
 			"settings": {
 				"foreground": "#82AAFF"
 			}
 		},
 		{
-			"scope": [
-				"support.function.powershell"
-			],
+			"scope": "support.function.powershell",
 			"settings": {
 				"foreground": "#7FDBCA"
 			}
@@ -1261,9 +1242,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.ruby"
-			],
+			"scope": "variable.other.ruby",
 			"settings": {
 				"foreground": "#D6DEEB"
 			}
@@ -1373,17 +1352,13 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.definition.metadata.markdown"
-			],
+			"scope": "punctuation.definition.metadata.markdown",
 			"settings": {
 				"foreground": "#7FDBCA"
 			}
 		},
 		{
-			"scope": [
-				"beginning.punctuation.definition.list.markdown"
-			],
+			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
 				"foreground": "#82B1FF"
 			}

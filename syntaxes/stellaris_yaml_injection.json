@@ -39,120 +39,120 @@
       ]
     },
     "bracket-command": {
-      "match": "(?<!\\[)\\[[^\\s\\[\\]\\n]+\\]",
+      "match": "\\[[^\\s\\n\\[\\]\\$]+\\]",
       "name": "bracket-command.stellaris.yml"
     },
     "loc-key": {
-      "match": "\\$[^\\s\\$\\n]+\\$",
+      "match": "\\$[^\\s\\n\\$]+\\$",
       "name": "loc-key.stellaris.yml"
     },
     "icon-code": {
-      "match": "\\£[^\\s\\£\\n]+\\£",
+      "match": "\\£[^\\s\\n\\£]+\\£",
       "name": "keyword.icon-code.stellaris.yml"
     },
     "color-code-w": {
-      "begin": "§W(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§W(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.w.stellaris.yml"
     },
     "color-code-t": {
-      "begin": "§T(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§T(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.t.stellaris.yml"
     },
     "color-code-lowercase_g": {
-      "begin": "§g(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§g(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_g.stellaris.yml"
     },
     "color-code-l": {
-      "begin": "§L(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§L(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.l.stellaris.yml"
     },
     "color-code-p": {
-      "begin": "§P(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§P(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.p.stellaris.yml"
     },
     "color-code-r": {
-      "begin": "§R(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§R(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.r.stellaris.yml"
     },
     "color-code-s": {
-      "begin": "§S(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§S(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.s.stellaris.yml"
     },
     "color-code-h": {
-      "begin": "§(H|K)(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§(H|K)(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.h.stellaris.yml"
     },
     "color-code-y": {
-      "begin": "§(Y|I)(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§(Y|I)(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.y.stellaris.yml"
     },
     "color-code-g": {
-      "begin": "§G(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§G(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.g.stellaris.yml"
     },
     "color-code-v": {
-      "begin": "§V(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§V(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.v.stellaris.yml"
     },
     "color-code-e": {
-      "begin": "§E(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§E(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.e.stellaris.yml"
     },
     "color-code-c": {
-      "begin": "§C(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§C(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.c.stellaris.yml"
     },
     "color-code-b": {
-      "begin": "§B(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§B(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.b.stellaris.yml"
     },
     "color-code-_": {
-      "begin": "§_(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§_(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code._.stellaris.yml"
     },
     "color-code-m": {
-      "begin": "§M(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§M(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.m.stellaris.yml"
     },
     "color-code-lowercase_c": {
-      "begin": "§c(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§c(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_c.stellaris.yml"
     },
     "color-code-lowercase_v": {
-      "begin": "§v(?=[^\\n]*§!)",
+      "begin": "§v(?=[^\\n]*(§!|(?=\"\\n)))",
       "end": "§!",
       "name": "keyword.color-code.lowercase_v.stellaris.yml"
     },
     "color-code-lowercase_d": {
-      "begin": "§d(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§d(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_d.stellaris.yml"
     },
     "color-code-lowercase_r": {
-      "begin": "§r(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§r(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_r.stellaris.yml"
     },
     "color-code-lowercase_l": {
-      "begin": "§l(?=[^\\n]*§!)",
-      "end": "§!",
+      "begin": "§l(?=[^\\n]*(§!|(?=\"\\n)))",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_l.stellaris.yml"
     }
   }
