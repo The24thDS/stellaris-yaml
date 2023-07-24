@@ -137,7 +137,7 @@
     },
     "color-code-lowercase_v": {
       "begin": "§v(?=[^\\n]*(§!|(?=\"\\n)))",
-      "end": "§!",
+      "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_v.stellaris.yml"
     },
     "color-code-lowercase_d": {
