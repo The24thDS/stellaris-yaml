@@ -24,7 +24,7 @@ Syntax highlighting and color themes for Stellaris localisation files. Has three
 
 ## Known Issues
 
-None. Please report create an issue if you find any.
+None. Please create an issue if you find any.
 
 ---
 
