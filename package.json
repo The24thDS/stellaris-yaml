@@ -4,7 +4,7 @@
   "description": "Syntax highlighting and color themes for Stellaris localisation files.",
   "icon": "images/extensionlogo.jpg",
   "publisher": "The24thDS",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.70.0"
   },
