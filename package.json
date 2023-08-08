@@ -27,6 +27,13 @@
         "injectTo": [
           "source.yaml"
         ]
+      },
+      {
+        "path": "./syntaxes/stellaris_yaml_injection_loc_with_scalar.json",
+        "scopeName": "stellaris.yaml.injection.loc_with_scalar",
+        "injectTo": [
+          "source.yaml"
+        ]
       }
     ],
     "themes": [
@@ -57,5 +64,15 @@
   "bugs": {
     "url": "https://github.com/The24thDS/stellaris-yaml/issues"
   },
-  "homepage": "https://github.com/The24thDS/stellaris-yaml/blob/main/README.md"
+  "homepage": "https://github.com/The24thDS/stellaris-yaml/blob/main/README.md",
+  "__metadata": {
+    "id": "3c607bba-2b85-49c0-afbf-f1e99e92b257",
+    "publisherId": "f63e6cf8-df88-48c9-9d40-9ab9bda726e7",
+    "publisherDisplayName": "The24thDS",
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "installedTimestamp": 1687544745173,
+    "preRelease": false
+  }
 }

@@ -370,13 +370,11 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag",
 				"meta.tag.other.html",
 				"meta.tag.other.js",
 				"meta.tag.other.tsx",
 				"entity.name.tag.tsx",
 				"entity.name.tag.js",
-				"entity.name.tag",
 				"meta.tag.js",
 				"meta.tag.tsx",
 				"meta.tag.html"
@@ -446,8 +444,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#7FDBCA",
-				"fontStyle": ""
+				"foreground": "#7FDBCA"
 			}
 		},
 		{
@@ -554,7 +551,8 @@
 				"support.type.vendor.property-name",
 				"support.constant.vendor.property-value",
 				"support.type.property-name",
-				"meta.property-list entity.name.tag"
+				"meta.property-list entity.name.tag",
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#80CBC4",
@@ -646,26 +644,20 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object.property"
-			],
+			"scope": "variable.other.object.property",
 			"settings": {
 				"foreground": "#FAF39F",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object.js"
-			],
+			"scope": "variable.other.object.js",
 			"settings": {
 				"fontStyle": ""
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function"
-			],
+			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#82AAFF",
 				"fontStyle": "italic"
@@ -933,7 +925,6 @@
 		{
 			"scope": [
 				"entity.name.tag.css",
-				"entity.name.tag.less",
 				"entity.name.tag.custom.css",
 				"support.constant.property-value.css"
 			],
@@ -1064,49 +1055,37 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.namespace-block.cpp"
-			],
+			"scope": "meta.namespace-block.cpp",
 			"settings": {
 				"foreground": "#E0DEC6"
 			}
 		},
 		{
-			"scope": [
-				"storage.type.language.primitive.cpp"
-			],
+			"scope": "storage.type.language.primitive.cpp",
 			"settings": {
 				"foreground": "#FF5874"
 			}
 		},
 		{
-			"scope": [
-				"meta.preprocessor.macro.cpp"
-			],
+			"scope": "meta.preprocessor.macro.cpp",
 			"settings": {
 				"foreground": "#D6DEEB"
 			}
 		},
 		{
-			"scope": [
-				"variable.parameter"
-			],
+			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FFCB8B"
 			}
 		},
 		{
-			"scope": [
-				"variable.other.readwrite.powershell"
-			],
+			"scope": "variable.other.readwrite.powershell",
 			"settings": {
 				"foreground": "#82AAFF"
 			}
 		},
 		{
-			"scope": [
-				"support.function.powershell"
-			],
+			"scope": "support.function.powershell",
 			"settings": {
 				"foreground": "#7FDBCA"
 			}
@@ -1263,9 +1242,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.ruby"
-			],
+			"scope": "variable.other.ruby",
 			"settings": {
 				"foreground": "#D6DEEB"
 			}
@@ -1375,17 +1352,13 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.definition.metadata.markdown"
-			],
+			"scope": "punctuation.definition.metadata.markdown",
 			"settings": {
 				"foreground": "#7FDBCA"
 			}
 		},
 		{
-			"scope": [
-				"beginning.punctuation.definition.list.markdown"
-			],
+			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
 				"foreground": "#82B1FF"
 			}
@@ -1708,11 +1681,11 @@
 		},
 		{
 			"scope": [
-				"keyword.bracket-command.stellaris.yml",
-				"keyword.loc-key.stellaris.yml"
+				"bracket-command.stellaris.yml",
+				"loc-key.stellaris.yml"
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline bold"
 			}
 		},
 		{
@@ -1733,6 +1706,13 @@
 			"scope": "keyword.color-code.t.stellaris.yml",
 			"settings": {
 				"foreground": "#D9D9D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_g.stellaris.yml",
+			"settings": {
+				"foreground": "#6D6D6D",
 				"fontStyle": "bold"
 			}
 		},
@@ -1786,9 +1766,23 @@
 			}
 		},
 		{
+			"scope": "keyword.color-code.v.stellaris.yml",
+			"settings": {
+				"foreground": "#417560",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "keyword.color-code.e.stellaris.yml",
 			"settings": {
 				"foreground": "#73D9B0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.c.stellaris.yml",
+			"settings": {
+				"foreground": "#1CC5B1",
 				"fontStyle": "bold"
 			}
 		},
@@ -1803,6 +1797,48 @@
 			"scope": "keyword.color-code.m.stellaris.yml",
 			"settings": {
 				"foreground": "#8B2DCB",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code._.stellaris.yml",
+			"settings": {
+				"foreground": "#D900D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_c.stellaris.yml",
+			"settings": {
+				"foreground": "#33B17C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_v.stellaris.yml",
+			"settings": {
+				"foreground": "#76948A",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_d.stellaris.yml",
+			"settings": {
+				"foreground": "#D9BC68",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_r.stellaris.yml",
+			"settings": {
+				"foreground": "#8B6FD9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_l.stellaris.yml",
+			"settings": {
+				"foreground": "#97C959",
 				"fontStyle": "bold"
 			}
 		},

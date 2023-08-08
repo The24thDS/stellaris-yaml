@@ -7,15 +7,15 @@ Syntax highlighting and color themes for Stellaris localisation files. Has three
 
 ### Night Owl (Stellaris Locs)
 
-![Night Owl theme with Stellaris Locs](images/nightowl.jpg)
+![Night Owl theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/nightowl.jpg)
 
 ### Dark+ (Stellaris Locs)
 
-![Dark+ theme with Stellaris Locs](images/darkplus.jpg)
+![Dark+ theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/darkplus.jpg)
 
 ### Stellaris Theme (Stellaris Locs)
 
-![Stellaris Theme with Stellaris Locs](images/stellaristheme.jpg)
+![Stellaris Theme with Stellaris Locs](https://github.com/The24thDS/stellaris-yaml/raw/HEAD/images/stellaristheme.jpg)
 
 ## Usage
 
@@ -23,9 +23,6 @@ Syntax highlighting and color themes for Stellaris localisation files. Has three
 2. Pick one of the three provided themes to make the syntax highlighting show.
 
 ## Known Issues
-
-- color codes that don't have a matching close tag will affect the rest of the words;
-- doesn't work on locs with scalars (eg.: `my_loc_key:1 "loc text"`).
 
 ## Extension Settings
 
@@ -150,6 +147,17 @@ If you want to customize the colors for the new keywords you can add this to you
 </details>
 
 ## Release Notes
+
+### 1.1.0
+
+Update to syntax and themes
+
+- fixed the following issues:
+  - color codes without a matching close tag will no longer affect the rest of the document
+  - locs now work with scalars (e.g., `my_loc_key` will now be colored in `my_loc_key:1 "loc text"`)
+- references (e.g., `$some_loc_key$` and `[some_command]`) will now be the same scoped color as neighboring text
+- themes have new color codes from latest Stellaris updates
+
 
 ### 1.0.0
 
