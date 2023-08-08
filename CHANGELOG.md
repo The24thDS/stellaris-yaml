@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/The24thDS/stellaris-yaml/compare/v1.0.0...v1.1.0) (2023-08-08)
+
+
+### Features
+
+* added new color codes ([a75f81e](https://github.com/The24thDS/stellaris-yaml/commit/a75f81ef4b1a8cf608ce9863fbec333d17e5f18a))
+* added support for vscode 1.70.* ([703e3c7](https://github.com/The24thDS/stellaris-yaml/commit/703e3c73520049328106106904e64cf4f58f333b))
+
+
+### Bug Fixes
+
+* fixed color codes without a matching close tag affecting the rest of the words ([a75f81e](https://github.com/The24thDS/stellaris-yaml/commit/a75f81ef4b1a8cf608ce9863fbec333d17e5f18a))
+* fixed color highlighting not working with scalars ([a75f81e](https://github.com/The24thDS/stellaris-yaml/commit/a75f81ef4b1a8cf608ce9863fbec333d17e5f18a))
+
 ## 1.0.0 (2022-09-18)
 
 ### Features
