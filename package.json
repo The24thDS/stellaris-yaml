@@ -6,7 +6,7 @@
   "publisher": "The24thDS",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Programming Languages",
