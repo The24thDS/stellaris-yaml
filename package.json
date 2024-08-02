@@ -27,13 +27,6 @@
         "injectTo": [
           "source.yaml"
         ]
-      },
-      {
-        "path": "./syntaxes/stellaris_yaml_injection_loc_with_scalar.json",
-        "scopeName": "stellaris.yaml.injection.loc_with_scalar",
-        "injectTo": [
-          "source.yaml"
-        ]
       }
     ],
     "themes": [
