@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.1](https://github.com/The24thDS/stellaris-yaml/compare/v1.1.0...v1.1.1) (2024-08-02)
+
+
+### Bug Fixes
+
+* fixed highlighting not working in 1.92 ([a8e05f8](https://github.com/The24thDS/stellaris-yaml/commit/a8e05f80fb8f2845f3b815afb3bcca66da576925))
+
 ## [1.1.0](https://github.com/The24thDS/stellaris-yaml/compare/v1.0.0...v1.1.0) (2023-08-08)
 
 
