@@ -1843,6 +1843,48 @@
 			}
 		},
 		{
+			"scope": "keyword.color-code.a.stellaris.yml",
+			"settings": {
+				"foreground": "#D69123",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.u.stellaris.yml",
+			"settings": {
+				"foreground": "#D2483B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.lowercase_t.stellaris.yml",
+			"settings": {
+				"foreground": "#999999",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.0.stellaris.yml",
+			"settings": {
+				"foreground": "#DCDCDC",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.1.stellaris.yml",
+			"settings": {
+				"foreground": "#2B8ED9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.color-code.2.stellaris.yml",
+			"settings": {
+				"foreground": "#8B2DCB",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#6796E6"

@@ -28,18 +28,29 @@
         { "include": "#color-code-lowercase_v" },
         { "include": "#color-code-lowercase_d" },
         { "include": "#color-code-lowercase_r" },
-        { "include": "#color-code-lowercase_l" }
+        { "include": "#color-code-lowercase_l" },
+        { "include": "#color-code-a" },
+        { "include": "#color-code-u" },
+        { "include": "#color-code-lowercase_t" },
+        { "include": "#color-code-0" },
+        { "include": "#color-code-1" },
+        { "include": "#color-code-2" }
       ]
     },
     "stellaris-references": {
       "patterns": [
+        { "include": "#concept-link" },
         { "include": "#bracket-command" },
         { "include": "#loc-key" },
         { "include": "#icon-code" }
       ]
     },
     "bracket-command": {
-      "match": "\\[[^\\s\\n\\[\\]\\$]+\\]",
+      "match": "(?<!\\[)\\[[^\\s\\n\\[\\]\\$]+\\]",
+      "name": "bracket-command.stellaris.yml"
+    },
+    "concept-link": {
+      "match": "(?<!\\[)\\['[^'\\]\\r\\n]+'(?:\\s*,\\s*[^\\]\\r\\n]*)?\\s*\\]",
       "name": "bracket-command.stellaris.yml"
     },
     "loc-key": {
@@ -154,6 +165,36 @@
       "begin": "§l",
       "end": "(§!|(?=\"\\n))",
       "name": "keyword.color-code.lowercase_l.stellaris.yml"
+    },
+    "color-code-a": {
+      "begin": "§A",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.a.stellaris.yml"
+    },
+    "color-code-u": {
+      "begin": "§U",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.u.stellaris.yml"
+    },
+    "color-code-lowercase_t": {
+      "begin": "§t",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.lowercase_t.stellaris.yml"
+    },
+    "color-code-0": {
+      "begin": "§0",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.0.stellaris.yml"
+    },
+    "color-code-1": {
+      "begin": "§1",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.1.stellaris.yml"
+    },
+    "color-code-2": {
+      "begin": "§2",
+      "end": "(§!|(?=\"\\n))",
+      "name": "keyword.color-code.2.stellaris.yml"
     }
   }
 }

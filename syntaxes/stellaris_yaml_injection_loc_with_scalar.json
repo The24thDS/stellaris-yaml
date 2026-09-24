@@ -1,26 +1,20 @@
 {
   "scopeName": "stellaris.yaml.injection.loc_with_scalar",
-  "injectionSelector": "L:source.yaml",
+  "injectionSelector": "L:source.yaml -comment",
   "patterns": [
-    { "include": "#key_without_colon_or_quote" }
-  ],
-  "repository": {
-    "key_without_colon_or_quote": {
-      "begin": "^\\s\\S+(?=:(\\s|\\d))",
-      "beginCaptures": {
-        "0": {
-          "name": "entity.name.tag.stellaris.yaml"
-        }
-      },
-      "end": "(:)(\\s|(\\d+(?=\\D)))",
-      "endCaptures": {
+    {
+      "match": "^\\s*([^\\s:#]+)(:)(\\d+)(?=\\s+\")",
+      "captures": {
         "1": {
+          "name": "entity.name.tag.stellaris.yaml"
+        },
+        "2": {
           "name": "punctuation.separator.key-value.mapping.stellaris.yaml"
         },
-        "2" : {
+        "3": {
           "name": "constant.numeric.integer.stellaris.yaml"
         }
       }
     }
-  }
+  ]
 }
