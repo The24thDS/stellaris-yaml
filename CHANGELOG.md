@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/The24thDS/stellaris-yaml/compare/v1.1.1...v1.2.0) (2026-09-24)
+
+
+### Features
+
+* added support for Stellaris Cygnus v4.5.1 ([bdf5ccd](https://github.com/The24thDS/stellaris-yaml/commit/bdf5ccd08c883af72098ce091341d4b863ad00f7))
+
 ## [1.1.1](https://github.com/The24thDS/stellaris-yaml/compare/v1.1.0...v1.1.1) (2024-08-02)
 
 
